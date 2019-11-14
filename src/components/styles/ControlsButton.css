@@ -1,0 +1,33 @@
+.controls-button {
+    display: block;
+    width: 100%;
+    color: var(--color-font-dark);
+    padding: 10px;
+    margin: 10px 0;
+    background: var(--color-btn);
+    text-transform: uppercase;
+    font-family: var(--font-main);
+    cursor: pointer;
+    font-size: 17px;
+    border-radius: 3px;
+    font-weight: bold;
+    border: 0;
+    border-top: 1px solid var(--color-btn);
+    border-left: 1px solid var(--color-primary);
+    border-right: 1px solid var(--color-primary);
+    border-bottom: 2px solid var(--color-primary);
+}
+
+.controls-button:active {
+    border-top: 1px solid var(--color-primary);
+    border-bottom: 2px solid var(--color-btn);
+
+    /* margin: 10px 0 11px; */
+}
+
+.controls-button.disabled,
+.controls-button:disabled {
+    cursor: not-allowed;
+    pointer-events: none;
+    opacity: .4;
+}

@@ -1,0 +1,13 @@
+.app-header {
+    color: var(--color-font-light);
+    background: var(--color-primary);
+    padding: 10px;
+    border-bottom: 2px solid var(--color-dark);
+}
+
+.app-header__header {
+    font-weight: normal;
+    text-align: left;
+    font-size: 23px;
+    letter-spacing: 0.7px;
+}

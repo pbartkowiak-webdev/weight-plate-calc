@@ -1,0 +1,10 @@
+.controls {
+    padding: 10px 20px;
+    background: var(--color-primary);
+}
+
+.controls__holder {
+    padding: 10px 20px;
+    background: var(--color-secondary);
+    border-radius: 5px;
+}

@@ -1,0 +1,31 @@
+.weight-input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 175px;
+}
+
+.weight-input__label {
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.weight-input__label--after-input {
+    font-size: 15px;
+}
+
+
+.weight-input__input {
+    width: 30px;
+    margin-left: 12px;
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid var(--color-secondary);
+    text-align: center;
+    color: #fff;
+}
+
+.weight-input__input:focus {
+    outline: 0;
+    border-bottom: 2px solid #fff;
+}

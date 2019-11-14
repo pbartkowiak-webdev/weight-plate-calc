@@ -1,0 +1,21 @@
+.expected-weight-input {
+    padding: 10px 0 10px;
+    background: var(--color-primary);
+}
+
+.expected-weight-input__header {
+    color: var(--color-font-light);
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-size: 29px;
+}
+
+.expected-weight-input__input {
+    max-width: 160px;
+    text-align: center;
+    color: var(--color-font-dark);
+    padding: 5px;
+    font-family: var(--font-main);
+    font-size: 29px;
+    font-weight: bold;
+}

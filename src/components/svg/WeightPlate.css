@@ -1,0 +1,51 @@
+.weight-plate {
+    width: 110px;
+    height: 110px;
+    background-position: -12px center;
+    background-repeat: no-repeat;
+    background-size: 140px 140px;
+    display: inline-block;
+    position: relative;
+}
+
+.weight-plate__value {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    color: #fff;
+    left: 50%;
+    font-size: 25px;
+    padding: 6px;
+    background: #000000;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    letter-spacing: 0.7px;
+    line-height: 20px;
+}
+
+.weight-plate__value--unit {
+    display: inline-block;
+    margin-left: 2px;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+.weight-plate--small {
+    width: 70px;
+    height: 70px;
+    background-size: 80px 80px;
+    background-position: center center;
+}
+
+.weight-plate--small .weight-plate__value {
+    font-size: 18px;
+    padding: 2px;
+    line-height: 14px;
+    letter-spacing: 0.3px;
+}
+
+.weight-plate--small .weight-plate__value--unit {
+    margin-left: 1px;
+    font-size: 12px;
+}

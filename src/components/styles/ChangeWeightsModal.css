@@ -1,0 +1,33 @@
+.modal-custom .modal-content {
+    background: var(--color-primary);
+    position: relative;
+    display: block;
+    width: 100%;
+    pointer-events: auto;
+    background-clip: padding-box;
+    border: 0;
+    border-radius: 6px;
+    outline: 0;
+    color: #fff;
+    padding: 1px 10px 1px 10px;
+    font-size: 20px;
+}
+
+.available-plates-list {
+    display: grid;
+    grid-row-gap: 15px;
+    grid-column-gap: 5px;
+    grid-template-rows: repeat(5,1fr);
+    grid-auto-flow: column;
+    margin: 15px 0 25px;
+}
+
+@media (min-width: 576px){
+    .modal-custom.modal-dialog {
+        max-width: 440px;
+    }
+    /* .modal-custom .modal-dialog {
+        1.75rem auto
+    } */
+}
+
